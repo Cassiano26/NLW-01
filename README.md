@@ -30,11 +30,12 @@ MOBILE:
 - Eslint
 - Prettier
 
-Install
-Download and install: Node JS, Express, React Native, Emulator
-Clone or download repository
-cd into the repository
-npm install or yarn to donwload dependencies in to this paths /Server , /mobile , /web.
-Run Back End server: go to /api and run: yarn start
-Run Front End: go to /web and run: yarn start
-Run mobile: goto /mobile and run: yarn start
+Install:
+
+- Download and install: Node JS, Express, React Native, Emulator
+- Clone or download repository
+- cd into the repository
+- npm install or yarn to donwload dependencies in to this paths /Server , /mobile , /web.
+- Run Back End server: go to /api and run: yarn start
+- Run Front End: go to /web and run: yarn start
+- Run mobile: goto /mobile and run: yarn start
