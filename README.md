@@ -14,7 +14,7 @@ SERVER:
 - Celebrate Back-End Validations
 - Axios Promise based HTTP client
 
-Web:
+WEB:
 - React
 - Axios Promise based HTTP client
 - Yup Validations
@@ -32,10 +32,12 @@ MOBILE:
 
 INSTALL:
 
-- Download and install: Node JS, Express, React Native, Emulator
 - Clone or download repository
 - cd into the repository
 - npm install or yarn to donwload dependencies in to this paths /Server , /mobile , /web.
-- Run Back End server: go to /api and run: yarn start
-- Run Front End: go to /web and run: yarn start
-- Run mobile: goto /mobile and run: yarn start
+- run the migrations and seeds (npm run knex:migration, npm run knex:seeds)
+- Run Back End server: go to /api and run: npm run dev
+- Run Front End: go to /web and run: npm start
+- Run mobile: go to /mobile and run: npm start
+
+NOTES: there's an empty folder named uploads in the server. This folder contains the icons for the items in the application. they are six images named -  baterias.svg, eletronicos.svg, lampadas.svg, oleo.svg, organicos.svg, papeis-parelao.svg. Place six icons with this name in the folder, and the application gonna run perfectly.
